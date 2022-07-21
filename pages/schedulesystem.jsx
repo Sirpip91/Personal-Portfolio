@@ -8,7 +8,7 @@ const schedulesystem = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/80 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
@@ -28,13 +28,11 @@ const schedulesystem = () => {
           <h2>Overview</h2>
           <p className='py-8'>
           The goal of this project is to create a software that will schedule courses to rooms and add students to each. 
-          The software that we have built uses a GUI to show the connection between databases, courses, and rooms. 
           There are two databases one for storing courses and another for storing rooms. 
           The databases are connected to using SQL a “structured query language”. 
-          The databases are changed in a CRUD manner, create, updated, manage, and delete. We first load information to the database using file I/O with excel spreadsheets. This is meant to simulate already existing information.
           </p>
           <a
-            href=''
+            href='https://github.com/Sirpip91/scheduling-system'
             target='_blank'
             rel='noreferrer'
           >

@@ -41,9 +41,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Bradley Allen</h2>
-                <p>Front-End Developer</p>
-                <p className='py-4'>
+                <h2 className='py-8'>Bradley Allen</h2>
+                <p>Software Engineer</p>
+                <p className='py-8'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>

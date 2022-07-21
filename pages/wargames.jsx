@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Wargames from '../public/assets/projects/wargames.jpg';
+import Wargames from '../public/assets/projects/wargamesp.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ const wargames = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/80 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
@@ -26,7 +26,7 @@ const wargames = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className='py-4'>
           This is a project to practice object oriented programming with java and put it to use.
 
                 The project consists of a tic-tac-toe game. The player must defeat the ai in order to win.
@@ -41,7 +41,7 @@ const wargames = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://www.youtube.com/channel/UCP2gOlXBAaK2hhTHqpzF5SA'
+            href='https://youtu.be/Ry0csJBTf4M'
             target='_blank'
             rel='noreferrer'
           >
@@ -58,10 +58,6 @@ const wargames = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> JavaFX
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-            
             </div>
           </div>
         </div>

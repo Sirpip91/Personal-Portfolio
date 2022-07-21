@@ -69,22 +69,22 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='Bradley_Allen_Resume.pdf'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-[#E18A07]'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-[#0e6fff]'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -161,7 +161,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='Bradley_Allen_Resume.pdf'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>

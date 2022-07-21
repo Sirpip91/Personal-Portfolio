@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../public/assets/projects/personal.png';
+import netflixImg from '../public/assets/projects/shell.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const personal = () => {
+const shell = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -17,8 +17,8 @@ const personal = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Porftolio Website</h2>
-          <h3>React JS / Tailwind</h3>
+          <h2 className='py-2'>Simple Shell</h2>
+          <h3>Linux / C / C++</h3>
         </div>
       </div>
 
@@ -27,18 +27,18 @@ const personal = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='py-8'>
-          This is a web programming project that uses react and tailwind.
-          This website contains my projects and a introduction to myself.
+          This is a UNIX project. The goal of this project is to create a shell in the terminal.
+          The shell can do all of the function of a regular shell.
           </p>
           <a
-            href='https://github.com/Sirpip91/personal-portfolio'
+            href='https://github.com/Sirpip91/simple-shell'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://bradley-allen.com/'
+            href='https://www.youtube.com/channel/UCP2gOlXBAaK2hhTHqpzF5SA'
             target='_blank'
             rel='noreferrer'
           >
@@ -50,16 +50,16 @@ const personal = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Linux
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> C
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> C++
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HTML
+                <RiRadioButtonFill className='pr-1' /> OS
               </p>
             </div>
           </div>
@@ -72,4 +72,4 @@ const personal = () => {
   );
 };
 
-export default personal;
+export default shell;

@@ -16,16 +16,24 @@ const About = () => {
             
           </p>
           <p className='py-4 text-gray-900 text-xl'>
-            I am a Self taught <b>Software Engineer</b> attending  <b>Lamar University</b>. I enjoy developing software that is linked closely
-             to the hardware.
+            I am a <b>Software Engineer</b> currently attending  <b>Lamar University</b>. I
+            enjoy programming, developing, and debugging software.
+             <br></br>
+             <br />
+             
           </p>
           <p className='py-2 text-gray-900 text-xl'>
            <b>Interests:</b><br></br>
-           Machine Learning, Artificial Intelligence, and Web Development
+           Machine Learning, Artificial Intelligence, and Web Development.
           </p>
+
+          <br />
+          <br />
           
-
-
+         <p className='py-2 text-gray-900 text-xl'> Currently looking for positions to further increase
+          my engineer capabilities.
+         
+         </p>
           <Link href='/#projects'>
             <p className='py-6 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.

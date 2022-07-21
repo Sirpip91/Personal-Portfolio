@@ -4,7 +4,7 @@ import React from 'react';
 import Wargames from '../public/assets/projects/wargames.jpg';
 import cryptoImg from '../public/assets/projects/schedulesystem.png'
 import netflixImg from '../public/assets/projects/personal.png'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import shellImg from '../public/assets/projects/shell.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -16,18 +16,31 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          
+
+        <ProjectItem
+            title='Schedule System'
+            backgroundImg={cryptoImg}
+            projectUrl='/schedulesystem'
+            tech='mySQL/Java'
+          />
+
+
+        <ProjectItem
+            title='Simple Shell'
+            backgroundImg={shellImg}
+            projectUrl='/shell'
+            tech='Linux/C++'
+          />
+          
           <ProjectItem
             title='Wargames'
             backgroundImg={Wargames}
             projectUrl='/wargames'
             tech='Java/JavaFX'
           />
-          <ProjectItem
-            title='Schedule System'
-            backgroundImg={cryptoImg}
-            projectUrl='/schedulesystem'
-            tech='mySQL/Java'
-          />
+
+         
 
           <ProjectItem
             title='Portfolio Website'
