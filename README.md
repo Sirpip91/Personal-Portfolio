@@ -20,11 +20,15 @@ CSS
 Javascript
 <br>
 
+
+ # LINK
+ 
+ https://bradley-allen.com/
+
+
+
 # Screenshot
 
 
 ![website banner](https://github.com/Sirpip91/personal-portfolio/blob/main/public/personal.PNG)
 
- # LINK
- 
- https://bradley-allen.com/
