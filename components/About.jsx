@@ -31,7 +31,7 @@ const About = () => {
           <br />
           
          <p className='py-2 text-gray-900 text-xl'> Currently looking for positions to further increase
-          my engineer capabilities.
+          my engineering experience.
          
          </p>
           <Link href='/#projects'>
