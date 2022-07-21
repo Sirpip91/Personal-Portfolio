@@ -32,7 +32,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#FF8008] to-[#ff7f08ad] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#0e6fff] to-[#2c41ff6c] text-white
    
  
    

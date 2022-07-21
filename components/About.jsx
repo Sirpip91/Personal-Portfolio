@@ -8,18 +8,18 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#E18A07]'>
+          <p className='uppercase text-xl tracking-widest text-[#0e6fff]'>
             About
           </p>
-          <h2 className='py-4'>Bradley Allen</h2>
+          <h2 className='py-2'>Bradley Allen</h2>
           <p className='py-2 text-gray-600'>
             
           </p>
-          <p className='py-2 text-gray-900 text-2xl'>
+          <p className='py-4 text-gray-900 text-xl'>
             I am a Self taught <b>Software Engineer</b> attending  <b>Lamar University</b>. I enjoy developing software that is linked closely
              to the hardware.
           </p>
-          <p className='py-2 text-gray-900 text-2xl'>
+          <p className='py-2 text-gray-900 text-xl'>
            <b>Interests:</b><br></br>
            Machine Learning, Artificial Intelligence, and Web Development
           </p>
@@ -27,7 +27,7 @@ const About = () => {
 
 
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-6 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
           </Link>

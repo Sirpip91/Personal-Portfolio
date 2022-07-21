@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Wargames from '../public/assets/projects/wargames.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
+import cryptoImg from '../public/assets/projects/schedulesystem.png'
+import netflixImg from '../public/assets/projects/personal.png'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#E18A07]'>
+        <p className='text-xl tracking-widest uppercase text-[#0e6fff]'>
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
@@ -23,26 +23,19 @@ const Projects = () => {
             tech='Java/JavaFX'
           />
           <ProjectItem
-            title='Crypto App'
+            title='Schedule System'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            projectUrl='/schedulesystem'
+            tech='mySQL/Java'
           />
+
           <ProjectItem
-            title='Netflix App'
+            title='Portfolio Website'
             backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            projectUrl='/personal'
+            tech='React/Tailwind'
           />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
 
-          />
         </div>
       </div>
     </div>
