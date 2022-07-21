@@ -23,7 +23,7 @@ Javascript
 # Screenshot
 
 
-![website banner]()
+![website banner](https://github.com/Sirpip91/personal-portfolio/blob/main/public/personal.PNG)
 
  # LINK
  
