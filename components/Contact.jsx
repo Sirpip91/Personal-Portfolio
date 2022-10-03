@@ -90,7 +90,6 @@ const Contact = () => {
             <div className='p-4'>
               <form
                 onSubmit={handleSubmit}
-                action='https://getform.io/f/f1035bb0-9616-4b8f-9845-0a20368f4e10'
                 method='POST'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
