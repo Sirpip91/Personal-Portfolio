@@ -39,11 +39,11 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+            <a href="mailto:allenbradley91@hotmail.com">
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            </Link>
+            </a>
             <Link href='/Bradley_Allen_Resume.pdf'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
