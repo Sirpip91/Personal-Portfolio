@@ -41,7 +41,7 @@ const wargames = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://youtu.be/Ry0csJBTf4M'
+            href='https://youtu.be/aL7mdJtIvzY'
             target='_blank'
             rel='noreferrer'
           >
