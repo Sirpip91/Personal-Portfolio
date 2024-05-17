@@ -16,7 +16,7 @@ const About = () => {
             
           </p>
           <p className='py-4 text-gray-900 text-xl'>
-          I'm a <b>software engineer</b> that enjoys developing, debugging, and building applications that have an <b>impact</b>.
+          I&#39;m a <b>software engineer</b> that enjoys developing, debugging, and building applications that have an <b>impact</b>.
           <br></br><br />
           Constently improving my programming skills, documenting solutions, and partaking in the software development lifecycle is what keeps me working on my craft.
 
@@ -29,7 +29,7 @@ const About = () => {
 
           
          <p className='py-2 text-gray-900 text-xl'>
-          When I'm not programming, I play the harmonica 🎵 , and enjoy web surfing 🌊 .
+          When I&#39;m not programming, I play the harmonica 🎵 , and enjoy web surfing 🌊 .
          </p>
           <Link href='/#projects'>
             <p className='py-6 text-gray-600 underline cursor-pointer'>
