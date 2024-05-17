@@ -16,23 +16,20 @@ const About = () => {
             
           </p>
           <p className='py-4 text-gray-900 text-xl'>
-            I am a <b>Software Engineer</b> currently attending  <b>Lamar University</b>. I
-            enjoy programming, developing, and debugging software.
+          I'm a <b>software engineer</b> that enjoys developing, debugging, and building applications that have an <b>impact</b>.
+          <br></br><br />
+          Constently improving my programming skills, documenting solutions, and partaking in the software development lifecycle is what keeps me working on my craft.
+
+
              <br></br>
              <br />
              
           </p>
-          <p className='py-2 text-gray-900 text-xl'>
-           <b>Interests:</b><br></br>
-           Machine Learning, Artificial Intelligence, and Web Development.
-          </p>
+    
 
-          <br />
-          <br />
           
-         <p className='py-2 text-gray-900 text-xl'> Currently looking for positions to further increase
-          my engineering experience.
-         
+         <p className='py-2 text-gray-900 text-xl'>
+          When I'm not programming, I play the harmonica 🎵 , and enjoy web surfing 🌊 .
          </p>
           <Link href='/#projects'>
             <p className='py-6 text-gray-600 underline cursor-pointer'>
@@ -41,7 +38,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+          <Image src={AboutImg} className='rounded-xl ' alt='/' />
         </div>
       </div>
     </div>
