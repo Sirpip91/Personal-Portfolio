@@ -15,6 +15,8 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
+        <p className='py-4 text-gray-900 text-xl '>These are a couple of my favorite ❤️ projects, checkout my <a href="https://github.com/Sirpip91" target='_blank' className='underline cursor-pointer'>Github</a> to see more code!</p>
+        <br />
         <div className='grid md:grid-cols-2 gap-8'>
           
 
