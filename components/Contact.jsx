@@ -20,6 +20,9 @@ const Contact = () => {
     setEmail(email);
     setSubject(subject);
     setMessage(message);
+    event.preventDefault();
+    const mailtoLink = `mailto:${'allenbradley91@hotmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -70,9 +73,17 @@ const Contact = () => {
                     </div>
                   </a>
 
+                  <a
+                  href="mailto:allenbradley91@hotmail.com"
+                  target='_blank'
+                  rel='noreferrer'
+                  >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  
+              
                     <AiOutlineMail />
                   </div>
+                  </a>
                   <Link href='/Bradley_Allen_Resume.pdf'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
