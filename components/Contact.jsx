@@ -21,7 +21,7 @@ const Contact = () => {
     setSubject(subject);
     setMessage(message);
     event.preventDefault();
-    const mailtoLink = `mailto:${'allenbradley91@hotmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:${''}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
     window.location.href = mailtoLink;
   };
 
