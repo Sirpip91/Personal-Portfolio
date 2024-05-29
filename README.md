@@ -23,7 +23,7 @@ Javascript
 
  # LINK
  
- https://bradley-allen.com/
+ https://bradleydallen.com/
 
 
 
